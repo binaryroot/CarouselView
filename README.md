@@ -1,3 +1,3 @@
 # CarouselView
 
-![Alt text](http://imgur.com/zd0gZAv)
+![Alt text](https://s31.postimg.org/h5zmkihzv/ezgif_com_video_to_gif.gif)
