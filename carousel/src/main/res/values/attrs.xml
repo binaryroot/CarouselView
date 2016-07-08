@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Carousel">
+        <attr name="itemsCount" format="integer"/>
+        <attr name="selectedItem" format="integer"/>
+
+        <!-- Max theta angle. Theta angle used for calculate distance between items.-->
+        <attr name="maxThetaAngle" format="float"/>
+        <attr name="minAlpha" format="integer"/>
+        <attr name="minQuantity" format="integer"/>
+        <attr name="maxQuantity" format="integer"/>
+        <attr name="maxScrollingVelocity" format="integer"/>
+        <attr name="maxScrollingDistance" format="integer"/>
+        <attr name="scrollToFlingUncertaintyTimeout" format="integer"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="panel_height" format="dimension"/>
+        <attr name="panel_width" format="dimension"/>
+    </declare-styleable>
+</resources>
