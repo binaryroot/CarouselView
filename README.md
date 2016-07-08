@@ -1,3 +1,3 @@
 # CarouselView
 
-![Alt text](http://i.imgur.com/zd0gZAv.gifv)
+![Alt text](http://imgur.com/zd0gZAv)
