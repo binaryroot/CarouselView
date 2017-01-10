@@ -117,7 +117,7 @@ class Rotator {
             case SCROLL_MODE:
 
                 float sc = (float) timePassed / mDurationMillis;
-                mCurrAngleDeg = mStartAngleDeg + Math.round(mDeltaAngleDeg * sc);
+                mCurrAngleDeg = mStartAngleDeg + (mDeltaAngleDeg * sc);
                 break;
 
             case FLING_MODE:
@@ -125,7 +125,7 @@ class Rotator {
                 float timePassedSeconds = timePassed / 1000.0f;
                 float distance = mCoeffVelocity * mVelocity * timePassedSeconds
                         - (DECELERATION * timePassedSeconds * timePassedSeconds / 2.0f);
-                mCurrAngleDeg = mStartAngleDeg + Math.round(distance);
+                mCurrAngleDeg = mStartAngleDeg + distance;
                 break;
             }
             return true; // return true because animation still running
